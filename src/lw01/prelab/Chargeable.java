@@ -1,5 +1,5 @@
 package lw01.prelab;
 
-public class Chargeable {
+public interface Chargeable {
     int calculateCharge();
 }
