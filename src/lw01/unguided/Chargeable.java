@@ -4,3 +4,4 @@ public interface Chargeable {
     int calculateCharge();
     String label();
 }
+

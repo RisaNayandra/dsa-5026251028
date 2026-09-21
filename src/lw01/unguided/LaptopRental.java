@@ -16,3 +16,4 @@ public class LaptopRental extends Rental {
     }
 
 }
+
