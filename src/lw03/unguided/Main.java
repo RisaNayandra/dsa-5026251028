@@ -64,24 +64,23 @@ public class Main {
                         }
                     }
                 }
-            } // end while loop
+            } 
 
-            scanner.close(); // Closed OUTSIDE the loop
+            scanner.close(); 
 
-            // Output matching the expected layout
             System.out.println("===== Enrollment Checks =====");
             for (int i = 0; i < checkResults.size(); i++) {
                 System.out.println(checkResults.get(i));
             }
 
-            System.out.println(); // Blank line between sections
+            System.out.println();
 
             System.out.println("===== Final Enrollment =====");
             for (Map.Entry<String, Integer> entry : courses.entrySet()) {
                 System.out.println(entry.getKey() + ": " + entry.getValue() + " students");
             }
 
-            System.out.println(); // Blank line before rejected operations count
+            System.out.println();
 
             System.out.println("Rejected operations: " + rejectedOperations);
 
